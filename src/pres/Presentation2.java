@@ -15,7 +15,7 @@ public class Presentation2 {
         String daoClassName=scanner.nextLine();
         Class cDao=Class.forName(daoClassName);
         IDao dao = (IDao) cDao.newInstance();
-        System.out.println( dao.getData());
+        //System.out.println( dao.getData());
 
 
         String metierClassName = scanner.nextLine();
